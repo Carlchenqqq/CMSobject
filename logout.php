@@ -9,5 +9,5 @@ session_start();
 $_SESSION = array();
 session_destroy();
 $_SESSION['isLogin'] = 0;
-echo "<script>window.location.href='./index.php'</script>";
+echo "<script>window.location.href='./login.php'</script>";
 ?>

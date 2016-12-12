@@ -1,16 +1,11 @@
-<?php
-include "./admin/public/dbconnect.php";
-?>
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <title>登陆</title>
-    <link rel="stylesheet" href="./css/all_style.css" type="text/css">
-    <script type="text/javascript" src="js/allJs.js"></script>
+    <link href="css/admin_login.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<?php include('public/topbar.php')?>
 <div class="admin_login_wrap">
     <h1>登陆</h1>
     <div class="adming_login_border">
@@ -32,7 +27,7 @@ include "./admin/public/dbconnect.php";
             </form>
         </div>
     </div>
-    <p class="admin_copyright"><a tabindex="5" href="./index.php">返回首页</a> </p>
+    <p class="admin_copyright"><a tabindex="5" href="../index.php">返回首页</a> </p>
 </div>
 </body>
 </html>
